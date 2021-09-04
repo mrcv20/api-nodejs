@@ -14,6 +14,8 @@ app.use(express.urlencoded({ extended: false }))
 // res = object to response for the user when him access this route
 // referenced
 require('./controllers/authController')(app)
+require('./controllers/projController')(app)
+
 
 
 app.listen(3000)
