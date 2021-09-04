@@ -13,8 +13,7 @@ app.use(express.urlencoded({ extended: false }))
 // req = dados da requests (param, token)
 // res = object to response for the user when him access this route
 // referenced
-require('./controllers/authController')(app)
-require('./controllers/projController')(app)
+require('./controllers/index')(app)
 
 
 
