@@ -1,10 +1,12 @@
 {
   "name": "api-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "--- Preencher ----",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "swagger-autogen": "node ./src/swagger.js"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +15,19 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "fs": "0.0.1-security",
+    "fs": "^0.0.1-security",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.4",
-    "path": "^0.12.7"
-  }
+    "path": "^0.12.7",
+    "swagger-autogen": "^2.11.2",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrcv20/api-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrcv20/api-nodejs/issues"
+  },
+  "homepage": "https://github.com/mrcv20/api-nodejs#readme"
 }
